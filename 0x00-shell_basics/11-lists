@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -l $current_dir $parent_dir $boot_dir
