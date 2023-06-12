@@ -1,2 +1,2 @@
 #!/bin/bash
-files=$(ls -t | tail -n 10)
+ls -t | head -10
