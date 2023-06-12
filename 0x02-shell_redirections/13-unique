@@ -1,2 +1,2 @@
 #!/bin/bash
-read -f words.txt
+words=$(cat words.txt)
