@@ -1,1 +1,2 @@
-This directory contains all project associated with Shell Redirection under thr ALX System engineering Devops Program
+This is a  directory that  contains all projects  associated with Shell Redirection under the  ALX System engineering Devops Program. 
+Thank You
