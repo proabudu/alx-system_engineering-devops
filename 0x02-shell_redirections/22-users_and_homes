@@ -1,0 +1,2 @@
+#!/bin/bashi
+awk -F: '{printf "User: %-10s Home Directory: %s\n", $1, $6}' /etc/passwd | sort
