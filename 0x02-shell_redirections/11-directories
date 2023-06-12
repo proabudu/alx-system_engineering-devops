@@ -1,2 +1,3 @@
 #!/bin/bash
-find . -maxdepth 1 -mindepth 1 -type d ! -name . ! -name .. | wc -l
+total_dirs=$(find . -type d ! -name "." ! -name ".." | wc -l)
+echo $total_dirs
