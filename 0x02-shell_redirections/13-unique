@@ -1,2 +1,0 @@
-#!/bin/bash
-words=$(cat words.txt)
