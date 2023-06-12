@@ -1,3 +1,2 @@
 #!/bin/bash
-total_dirs=$(find . -type d ! -name "." ! -name ".." | wc -l)
-echo $total_dirs
+find . -type d -printf '%h\n' | wc -l
