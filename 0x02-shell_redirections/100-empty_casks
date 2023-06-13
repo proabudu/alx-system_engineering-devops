@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -empty -o -type d -empty -print | sed -e 's|.*/||' -e '\n'
+find . -type d -empty -o -type f -empty | sed -E 's|^.*/||;s|$||;$!s/$/\n/'
