@@ -1,2 +1,2 @@
 #!/bin/bash
-tr ' ' '\n' | sort | uniq -u
+unique_words=$(echo "$words" | sort | uniq -u)
