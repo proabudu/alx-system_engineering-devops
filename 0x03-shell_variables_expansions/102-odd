@@ -1,2 +1,2 @@
 #!/bin/bash
-i=1; while read line; do [ $((i % 2)) -eq 1 ] && echo $line; i=$((i + 1)); done < input.txt
+i=1;while read line; do if [ $((i % 2)) -eq 1 ]; then echo $line; fi; i=$((i + 1)); done < input.txt
