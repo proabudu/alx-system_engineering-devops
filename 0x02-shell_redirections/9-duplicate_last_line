@@ -1,2 +1,2 @@
 #!/bin/bash
-tail -n 1 iacta | tee -a iacta
+last_line=$(tail -n1 iacta) echo "$last_line" >> iacta
