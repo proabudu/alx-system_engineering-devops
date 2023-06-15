@@ -1,3 +1,2 @@
 #!/bin/bash
-result=$((WATER + STIR))
-echo "The result is: $result"
+result=$((WATER + STIR)) echo "The result is: $result"
