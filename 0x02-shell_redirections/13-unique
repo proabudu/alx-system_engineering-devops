@@ -1,2 +1,2 @@
 #!/bin/bash
-unique_words=$(echo "$words" | sort | uniq -u)
+sort "$1" | uniq -c | grep "^\s*1\s" | cut -c9-
