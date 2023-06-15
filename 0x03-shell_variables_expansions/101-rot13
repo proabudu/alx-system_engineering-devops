@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $TEXT | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+echo "your_text" | tr 'A-Za-z' 'N-ZA-Mn-za-m' && echo "your_encoded_text" | tr 'A-Za-z' 'N-ZA-Mn-za-m'
