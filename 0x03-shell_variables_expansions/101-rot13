@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "your_text" | tr 'A-Za-z' 'N-ZA-Mn-za-m' && echo "your_encoded_text" | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+echo "Hello world" | tr 'A-Za-z' 'N-ZA-Mn-za-m'; echo "Uryyb jbeyq" | tr 'A-Za-z' 'N-ZA-Mn-za-m'
