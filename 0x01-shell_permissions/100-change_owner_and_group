@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -o -type d | xargs -I {} chown vincent:staff {}
+chown -R vincent:staff .
