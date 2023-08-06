@@ -1,2 +1,2 @@
 #!/bin/bash
-chown $(stat -c '%U hello') hello || chown betty hello
+chown $(stat -c '%U hello') hello chown betty hello
