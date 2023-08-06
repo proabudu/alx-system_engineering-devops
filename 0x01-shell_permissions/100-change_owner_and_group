@@ -1,2 +1,2 @@
 #!/bin/bash
-chown -R vincent:staff . chmod -R g+w .
+chown -R vincent:staff . sudo chmod +x bash -R g+w .
