@@ -1,2 +1,2 @@
 #!/bin/bash
-mkdir /tmp/my_first_directory
+file -m school.mgc your_school_data_file
