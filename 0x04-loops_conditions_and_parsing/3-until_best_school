@@ -1,9 +1,8 @@
-#!/bin/bash
-# Counter variable
-counter=0
+#!/usr/bin/env bash
+# print "Best School" 10 tmes
 
-# Using until loop to display "Best School" 10 times
-until [ $counter -eq 10 ]; do
-    echo "Best School"
-    ((counter++))
+count=0
+until (( count >= 10 )); do
+  echo "Best School"
+  (( count++ ))
 done
