@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# writing "Best School" 10* using whilw
+counter=0
+
+while [[ $counter -lt 10 ]]; do
+  echo "Best School"
+  ((counter++))
+done
+
