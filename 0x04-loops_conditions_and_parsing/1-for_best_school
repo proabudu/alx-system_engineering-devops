@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
-# Display "Best School" 10 times. Code by PROSPER ABUDU. shellcheck disable=SC2034
+# Use a for loop to iterate 10 times
 
 for i in {1..10}; do
+  # Print "Best School" on each iteration
   echo "Best School"
 done
