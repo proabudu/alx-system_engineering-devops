@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-# print "Best School"c10 times
 
 count=1
 while (( count <= 10 )); do
