@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
-# Display "Best School" 10 times. Code by PROSPER ABUDU.
+# Display "Best School" 10 times. Code by PROSPER ABUDU. shellcheck disable=SC2034
 
-# shellcheck disable=SC2034
 for i in {1..10}; do
   echo "Best School"
 done
