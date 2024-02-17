@@ -14,4 +14,3 @@ do
   done
   (( hour++ ))
 done
-
