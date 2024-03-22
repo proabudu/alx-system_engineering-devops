@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 #!/usr/bin/env bash
 # Display "Best School 10*"
 
 for i in {1..10}; do
   echo "Best School"
 done
+=======
+#!/usr/bin/env bash
+# Using a for loop to display "Best School" 10 times
+
+for ((i=0; i<10; i++)); do
+    echo "Best School"
+done
+>>>>>>> a382e7ebc1f246cd9688c55d23f3a3e06952fd0c
