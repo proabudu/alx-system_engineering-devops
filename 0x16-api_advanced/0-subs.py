@@ -13,14 +13,14 @@ from requests import get
 
 def number_of_subscribers(subreddit: str) -> int:
     """
-    Function that queries the Reddit API and returns the number of subscribers
+    Function that queries the Reddit API and returns the number of subscriber
     (not active users, total subscribers) for a given subreddit.
 
     Args:
         subreddit (str): The name of the subreddit to query.
 
     Returns:
-        int: The number of subscribers for the subreddit, or 0 if an error occurs.
+        int: The number of subscribers for the subreddit, or 0 if an error 
 
     Raises:
         Exception: If the API request fails.
@@ -35,9 +35,9 @@ def number_of_subscribers(subreddit: str) -> int:
 
     if response.status_code == 200:  # Check for successful response
         results = response.json()
-        return results.get('data', {}).get('subscribers', 0)  # Handle potential missing keys
+        return results.get('data', {}).get('subscribers', 0)  # Handle po
     else:
-        raise Exception(f"API request failed with status code: {response.status_code}")
+        raise Exception(f"API request  status code: {response.status_code}")
 
 # Example usage (assuming you have the requests library installed)
 subreddit_name = "learnpython"
